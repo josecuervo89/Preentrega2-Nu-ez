@@ -1,0 +1,28 @@
+.i-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    align-items: center;
+}
+
+#mas90 {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: black;
+  }
+  
+  .animated-text {
+    text-align: center;
+    font-size: 5rem;
+    background: linear-gradient(90deg, red, rgb(0, 17, 255), red) 0 0 / 400% 100%;
+    animation: move-bg 4s infinite linear;
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+@keyframes move-bg {
+  to {
+    background-position: 400% 0;
+  }
+}
