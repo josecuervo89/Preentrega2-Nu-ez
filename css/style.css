@@ -42,7 +42,13 @@ body {
   align-items: center;
 }
 
-mas90 {
+#mas90 {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: black;
+}
+#mas91 {
   display: grid;
   place-items: center;
   min-height: 100vh;
